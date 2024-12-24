@@ -2,10 +2,20 @@ const image = ["assests/spider-man-marvel-3840x2160-11025.jpg","assests/roronoa-
 let current_index = 0;
 const nameElement = document.getElementsByClassName("name")[0];
 let current_cycle = 0;
+const bioElements = document.getElementsByClassName("bio");
+console.log(bioElements.length);
 function background(){
+    for (let i = 0; i < bioElements.length; i++) {
+        if (current_cycle < 5) {
+            bioElements[i].style.display = "none";
+        } else {
+            bioElements[i].style.display = "block"; 
+            return;
+        }
+    }
     nameElement.style.backgroundImage = `url(${image[current_index]})`;
     current_index = (current_index+1)%image.length;
-    console.log(current_index);
+    
     if(current_index == 0){
         current_cycle++;
         if(current_cycle<5){
@@ -26,8 +36,9 @@ function background(){
             setTimeout(() => {
                 nameElement.style.display = "none";
               }, 1000);
+              
         }
     }
 }
 background();
-setInterval(background,400);
+setInterval(background,600);

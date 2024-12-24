@@ -29,6 +29,24 @@ html,body{
     font-weight: 800;
     font-style: normal;
   }
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 100px);
+    height: calc(100% - 195px);
+    background: rgb(91, 82, 91);
+    border-radius: 15px;
+    padding: 20px;
+}
+.profile{
+    height: 80%;
+    margin: auto;
+    width: 250px;
+    background: black;
+    border-radius: 15px;
+}
 
 .about{
     height: 100vh;
