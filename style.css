@@ -79,7 +79,6 @@ html,body{
     width: 100vw;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
 
 /*Project page css design*/
@@ -94,7 +93,7 @@ body, h1, h2, h3, p, ul {
 
 /* Basic body styles */
 body {
-    font-family: Arial, sans-serif;
+    
     line-height: 2.5;
     background-color: #f4f4f4;
     color: #333;
@@ -104,7 +103,7 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 nav {
@@ -139,19 +138,7 @@ nav ul li a:hover {
 }
 
 /* Section styles */
-section {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
 
-h1 {
-    margin-bottom: 20px;
-    color: #333;
-}
 
 .project-gallery {
     display: flex;
@@ -216,20 +203,22 @@ footer {
     width: 100%;
 }
 /*project page*/
-=======
+
+
+/* education page*/
 .flex.container{
     display:flex;
     width:100px;
-
-
-}
-.container img{
+  
+  
+  }
+  .container img{
     width:50px;
     height:auto;
     margin-right:20px;
-}
-.flex-box{
-    margin: 50px;
+  }
+  .flex-box{
+    margin:100px;
     width:700px;
     height:200px;
     box-shadow:0px 5px 15px rgba(0,0,0,0.2) ;
@@ -240,22 +229,24 @@ footer {
     padding: 30px;
     box-sizing: border-box;
     float:right;
-border-radius: 20px;
+    overflow: hidden;
+  border-radius: 20px;
    
-}
-.line{
-    margin: 5px 0;
+  }
+  .line{
+   
     font-size:30px;
     text-align:left;
-}
-.title{
-    padding: 50;
+  }
+  .title{
+    padding: 50px;
     font-size: 90px;
     
-}
-.container img{
+  }
+  .container img{
     width:500px;
     height:auto;
-    margin-right:20px;
-}
->>>>>>> b688dc04048a2749517db8e23784d443f10dbe47
+    margin-right:100px;
+  }
+  
+
