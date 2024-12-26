@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
+    cursor: none;
     background-color: antiquewhite;
     
 }
@@ -89,3 +89,12 @@ body {
   margin-left: 635px;
   padding: 25px;
 }
+.bubble {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #090909;
+    border-radius: 50%;
+    pointer-events: none; 
+    transition: transform 0.05s ease-out; 
+  }
