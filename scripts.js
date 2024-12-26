@@ -1,36 +1,15 @@
-// Initialize Swiper with coverflow effect
-var swiper = new Swiper(".swiper", {
-    effect: "coverflow",        
-    grabCursor: true,           
-    centeredSlides: true,     
-    coverflowEffect: {
-      rotate: 0,               
-      stretch: 0,             
-      depth: 100,            
-      modifier: 4,           
-      slideShadow: true       
-    },
-    loop: true,               
-    navigation: {
-      nextEl: ".swiper-button-next",  
-      prevEl: ".swiper-button-prev",  
-    },
-    keyboard: {
-      enabled: true,          
-    },
-    mousewheel: {
-      thresholdDelta: 70,      
-    },
-    breakpoints: {
-      560: {
-        slidesPerView: 2.5,     
-      },
-      768: {
-        slidesPerView: 3,     
-      },
-      1024: {
-        slidesPerView: 3,       
-      },
-    },
-  });
-  
+function darkmode() {
+  const themeButton = document.getElementById('dark');
+  const homeSection = document.querySelector('.home');
+  const currentImage = themeButton.style.backgroundImage;
+
+  if (currentImage.includes('half-moon.png')) {
+      themeButton.style.backgroundImage = "url('assests/sun.png')";
+      homeSection.style.backgroundColor = '#1e1e1e'; 
+      homeSection.style.color = '#ffffff';
+  } else {
+      themeButton.style.backgroundImage = "url('assests/half-moon.png')";
+      homeSection.style.backgroundColor = '#c0c0c0'; 
+      homeSection.style.color = '#000000'; 
+  }
+}
