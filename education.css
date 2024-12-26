@@ -1,5 +1,7 @@
 /* education page */
-
+  body{
+    cursor: none;
+  }
     .flex.container {
         display: flex;
        
@@ -28,7 +30,7 @@
         overflow: hidden;
         border-radius: 20px;
         opacity: 0; /* Initially hidden */
-        transform: translateX(100%); /* Position off-screen to the right */
+        transform: translateX(100%);
         transition: transform 1s ease-out, opacity 1s ease-out; /* Smooth transition */
     }
     
@@ -144,6 +146,16 @@ z-index:-1;
     stroke: #dfbfbf;
     stroke-width:0.7em;
   }
+  .degree{
+   
+      font-size: 100px;
+     text-align: center;
+   ;
+     float: center;
+     justify-content: space-between;
+    
+  }
+  
   .bubble {
     position: relative;
     width: 20px;
@@ -153,3 +165,4 @@ z-index:-1;
     pointer-events: none; 
     transition: transform 0.05s ease-out; 
   }
+  
