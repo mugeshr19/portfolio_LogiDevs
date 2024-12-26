@@ -11,128 +11,62 @@ html,body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #c0c0c0;
 }
-.myself{
-    margin: auto;
-    margin-left: 75px;
-    height: 425px;
-    width: 700px;
-    background-color: rgb(221, 182, 182);
-    padding: 20px;
-    
-}
-.poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-.profile_pic{
-    position: relative;
-    right: 325px;
-    height: calc(100% - 300px);
-    width: 300px;
-    background-image: url(assests/WhatsApp\ Image\ 2024-12-23\ at\ 23.40.57_1ad0f6f8.jpg);
-    background-size: cover;
-    background-clip: content-box;
-    -webkit-background-clip: content-box;
-}
-.profile_pic_2{
-    margin-top: 50px;
-    height: calc(100% - 300px);
-    width: 300px;
-    background-color: transparent;
-    border: solid 5px black;
-}
-.squares{
-    position: relative;
-    top: 10px;
+.navigation{
+    height: 5%;
+    width: 30%;
     background: #c0c0c0;
-    height: 50px;
-    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 50px;
 }
-.arrow_sym{
-    position: relative;
-    top: -100px;
-    margin: 50px;
-    background: #c0c0c0;
-    height: 70px;
-    width: 70px;
+.home_button{
+    height: 30px;
+    width: 30px;
+}
+.about_button{
+    height: 30px;
+    width: 30px;
+}
+.project_button{
+    height: 30px;
+    width: 30px;
+}
+.contact_button{
+    height: 30px;
+    width: 30px;
 }
 .about{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
 }
+.box_profile{
 
+    height: 70%;
+    width: 70%;
+    background:  linear-gradient(to right top, rgb(49, 43, 43), white); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*Project page css design*/
 /* styles.css */
 .projects
 {
+    background-color: #c0c0c0;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
-}
-body {
-    font-family: Arial, sans-serif;
-    line-height: 2.5;
-    background-color: #f4f4f4;
-    color: #333;
+    overflow: hidden;
 }
 
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-nav h2 {
-    margin: 0;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #120fc0; 
-}
-
-
-.about{
-    padding: 20px;
-}
-.project{
-    padding: 20px;
-}
-
-h1 {
-    margin-bottom: 20px;
-    color: #333;
-}
 
 .project-gallery {
     display: flex;
@@ -149,10 +83,9 @@ h1 {
     padding: 1cm;
     width: calc(33.333% - 20px); /* Three cards per row */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-    padding:20px;
-    width: calc(33.333% - 20px); 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    height: 300px;
+    width: 250px;
     
 }
 
@@ -184,21 +117,7 @@ h1 {
     background: #cdc8ff; /* Darker tomato on hover */
 }
 
-/* Footer styles */
-/*footer {
-    background: #4e4499;
-}
 
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}*/
 .line2{
     font-size: larger;
     padding: 20px;
@@ -235,7 +154,7 @@ footer {
     text-align:left;
 }
 .title{
-    padding: 50;
+    
     font-size: 90px;
     
 }
