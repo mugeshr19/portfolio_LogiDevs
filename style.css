@@ -79,7 +79,8 @@ html,body{
 
 
 .project-gallery {
-    display: flex;
+
+    display: inline-flex;
     flex-wrap: wrap;
     gap: 25px;
     padding: 25;
