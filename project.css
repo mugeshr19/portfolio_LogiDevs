@@ -6,6 +6,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 .projects
 {
@@ -80,3 +81,12 @@ html,body{
     font-size: 90px;
     
 }
+.bubble {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #090909;
+    border-radius: 50%;
+    pointer-events: none; 
+    transition: transform 0.05s ease-out; 
+  }

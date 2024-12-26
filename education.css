@@ -1,4 +1,5 @@
 /* education page */
+
     .flex.container {
         display: flex;
        
@@ -142,4 +143,13 @@ z-index:-1;
   svg.squiggle path{
     stroke: #dfbfbf;
     stroke-width:0.7em;
+  }
+  .bubble {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #090909;
+    border-radius: 50%;
+    pointer-events: none; 
+    transition: transform 0.05s ease-out; 
   }
