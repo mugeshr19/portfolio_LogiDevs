@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 function darkmode() {
   const themeButton = document.getElementById('dark');
   const homeSection = document.querySelector('.home');
@@ -15,4 +13,3 @@ function darkmode() {
       homeSection.style.color = '#000000'; 
   }
 }
->>>>>>> 2a0945315acea6c83566d9ef1644f34e39e4f432

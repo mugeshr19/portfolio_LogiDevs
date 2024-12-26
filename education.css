@@ -26,9 +26,9 @@
         float: right;
         overflow: hidden;
         border-radius: 20px;
-        opacity: 0; /* Initially hidden */
+        opacity: 0; 
         transform: translateX(100%);
-        transition: transform 1s ease-out, opacity 1s ease-out; /* Smooth transition */
+        transition: transform 1s ease-out, opacity 1s ease-out;
     }
     
     .flex-box.visible {
@@ -124,6 +124,10 @@
   .certification{
     padding: 5px;
     font-size: 90px;
+  }
+  .certi-fication{
+    padding:10px;
+    font-size:20px;
   }
   }
   .cert{
