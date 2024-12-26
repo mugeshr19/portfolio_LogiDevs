@@ -1,4 +1,7 @@
 function applyDarkMode(isDarkMode) {
+
+function darkmode() {
+
   const themeButton = document.getElementById('dark');
   const homeSection = document.querySelector('.home');
   const bubble = document.querySelector('.bubble');
@@ -16,23 +19,25 @@ function applyDarkMode(isDarkMode) {
   }
 }
 
+
 function darkmode() {
   const isDarkMode = localStorage.getItem('darkMode') === 'true';
-  const newDarkMode = !isDarkMode; // Toggle the mode
-  localStorage.setItem('darkMode', newDarkMode); // Save the new preference
-  applyDarkMode(newDarkMode); // Apply the theme
+  const newDarkMode = !isDarkMode; 
+  localStorage.setItem('darkMode', newDarkMode); 
+  applyDarkMode(newDarkMode); 
 }
 
-// On page load, apply the saved theme preference
+
 document.addEventListener('DOMContentLoaded', () => {
   const isDarkMode = localStorage.getItem('darkMode') === 'true';
   applyDarkMode(isDarkMode);
 });
 
-// Bubble effect
+
 const bubble = document.querySelector('.bubble');
 document.addEventListener('mousemove', (event) => {
   const x = event.clientX;
   const y = event.clientY;
   bubble.style.transform = `translate(${x}px, ${y}px)`;
 });
+}
