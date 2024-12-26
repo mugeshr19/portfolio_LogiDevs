@@ -86,12 +86,45 @@ html,body{
     overflow: hidden;
 }
 .box_profile{
-
+    border-radius: 20px;
     height: 70%;
     width: 70%;
-    background:  linear-gradient(to right top, rgb(49, 43, 43), white); 
+    background:  linear-gradient(to right top, rgb(124, 118, 118), white); 
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-evenly;
+
+}
+.user_name{
+    font-size: xx-large;
+}
+.para{
+    font-size: 25px;
+}
+.frontend{
+    background: linear-gradient(to right, rgb(234, 201, 139), transparent);
+}
+.bio{
+    height: 50%;
+    width: 40%;
+    background-color: rgba(87, 78, 78, 0.073); 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile{
+    background: url(assests/WhatsApp\ Image\ 2024-12-23\ at\ 23.40.57_1ad0f6f8.jpg);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border: none;
+    border-radius: 10px;
+    height: 80%;
+    width: 30%;
+    background-color: black;
+
 }
 
