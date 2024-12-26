@@ -26,12 +26,12 @@ html,body{
 }
 
 .project-card {
-    background: #f6efff;
+    background :#f6efff; 
     border: 10px solid #ffffff;
     border-radius: 8px;
     overflow: hidden;
     padding: 1cm;
-    width: calc(33.333% - 20px); /* Three cards per row */
+    width: calc(33.333% - 20px); 
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s;
     height: 300px;
@@ -64,7 +64,7 @@ html,body{
 }
 
 .btn:hover {
-    background: #cdc8ff; /* Darker tomato on hover */
+    background: #cdc8ff; 
 }
 
 
