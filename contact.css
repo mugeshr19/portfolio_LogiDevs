@@ -5,10 +5,7 @@ body {
     padding: 0;
     cursor: none;
     overflow: hidden;
-    background: url(assests/backgroundimg.avif);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    border: none;
+    background: #c0c0c0;
     
 }
 .logo{

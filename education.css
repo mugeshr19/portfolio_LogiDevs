@@ -30,7 +30,7 @@
     left: 190px;
     height: 5%;
     width: 30%;
-    background: #c0c0c0;
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
